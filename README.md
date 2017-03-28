@@ -13,21 +13,34 @@ What you will submit:
 
 - [x] Watch [Big O Notation](https://www.youtube.com/watch?v=v4cd1O4zkGw)(8m)
   - Four rules to remember about the big-O notation:
-      1. Different steps get added: e.g. `O(a+b)`
-      2. Drop constants: not `O(2N)` but `O(N)`
-      3. Use different variables for different inputs: e.g. `O(A*B)`
-      4. Drop non-dominate terms: not `O(n^2 + n)` but `O(n^2)`
-- [ ] Read [Big O Notation in plain English](http://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation) and write down what you learned from it
+    1. Different steps get added: e.g. `O(a+b)`
+    2. Drop constants: not `O(2N)` but `O(N)`
+    3. Use different variables for different inputs: e.g. `O(A*B)`
+    4. Drop non-dominate terms: not `O(n^2 + n)` but `O(n^2)`
+- [x] Read [Big O Notation in plain English](http://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation) and write down what you learned from it
   - I have learned that...
-- [ ] Visit http://bigocheatsheet.com/ and think about how useful it could be to you
-  - This sheet makes more sense to me now /OR/ This sheet does not make sense to me.
-- [ ] Watch LogN in 5m: https://www.youtube.com/watch?v=kjDR1NBB9MU
+    - The base of the logarithm of a `O(log n)` complexity does not matter
+- [x] Visit http://bigocheatsheet.com/ and think about how useful it could be to you
+  - Very nice overview, need to order the poster :smiley:
+- [x] Watch LogN in 5m: https://www.youtube.com/watch?v=kjDR1NBB9MU
   - I have learned that...
+    - Complexity of quicksort is `O(n*log(n))`
   
 **Hashtables**
 
-- [ ] Read [InterviewCake Hashtable](https://www.interviewcake.com/concept/java/hash-map?)
-- [ ] Watch concept video: [HackerRank Video: Hash Tables](https://www.youtube.com/watch?v=shs0KM3wKv8) (6m)
+- [x] Read [InterviewCake Hashtable](https://www.interviewcake.com/concept/java/hash-map?)
+  - Hash table interview questions
+- [x] Watch concept video: [HackerRank Video: Hash Tables](https://www.youtube.com/watch?v=shs0KM3wKv8) (6m)
+  - I have learned that...
+    - How hash tables internally work:
+      1. Map key to hash code by a hash function
+      2. Map hash function to an array index
+      3. Store value in array at the calculated index
+    - There are two causes of collisions
+      1. Two different keys map to the same hash code
+      2. Two different hash codes map to the same array index
+    - One way to handle collisions: *chaining*
+      - Array elements do not contain only single objects, but may contain multiple objects in the form of a linked list of key/value pairs
 
 Extras: 
 - [ ] [Introducing Hash Tables](https://www.youtube.com/watch?v=MfhjkfocRR0) (7m)
