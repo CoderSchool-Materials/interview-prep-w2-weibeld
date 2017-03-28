@@ -11,8 +11,12 @@ What you will submit:
 
 **Big O Notation**
 
-- [ ] Watch [Big O Notation](https://www.youtube.com/watch?v=v4cd1O4zkGw)(8m)
-  - I have learned that...
+- [x] Watch [Big O Notation](https://www.youtube.com/watch?v=v4cd1O4zkGw)(8m)
+  - Four rules to remember about the big-O notation:
+      1. Different steps get added: e.g. `O(a+b)`
+      2. Drop constants: not `O(2N)` but `O(N)`
+      3. Use different variables for different inputs: e.g. `O(A*B)`
+      4. Drop non-dominate terms: not `O(n^2 + n)` but `O(n^2)`
 - [ ] Read [Big O Notation in plain English](http://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation) and write down what you learned from it
   - I have learned that...
 - [ ] Visit http://bigocheatsheet.com/ and think about how useful it could be to you
@@ -31,8 +35,8 @@ Extras:
 
 **Coding**
 
-- [ ] Set up an account on Interviewbit.com and start the [Programming course](https://www.interviewbit.com/courses/programming/)
-- [ ] Finish at least 2 tasks on Exercism
+- [x] Set up an account on Interviewbit.com and start the [Programming course](https://www.interviewbit.com/courses/programming/)
+- [x] Finish at least 2 tasks on Exercism
 
 ### Optional tasks
 
